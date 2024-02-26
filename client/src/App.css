@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.productsTable {
+  width: 800px;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #dfdfdf;
+  border-bottom: 1px solid black;
+  border: 2px solid black;
+}
+
+.activeProduct {
+  background-color: chartreuse;
+}
+
+.canceledProduct {
+  background-color: #bb0000;
+}
+
+td {
+  text-align: center;
+  border: 2px solid black;
+}
